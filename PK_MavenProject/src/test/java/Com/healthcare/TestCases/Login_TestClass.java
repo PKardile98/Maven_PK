@@ -13,6 +13,7 @@ public class Login_TestClass  extends BaseClass_OpenMRS{
 	Login_MRS LG= new Login_MRS(); // Created the obj
 	
 	LG.Setusername(Username);
+	System.out.println("Hello");
 	
 	LG.SetPassword(Password);
 	LG.Wardclick();
