@@ -15,6 +15,8 @@ public class Login_TestClass  extends BaseClass_OpenMRS{
 	LG.Setusername(Username);
 	System.out.println("Hello");
 	
+	System.out.println(" new changes");
+	
 	LG.SetPassword(Password);
 	LG.Wardclick();
 	LG.Login_Click();
