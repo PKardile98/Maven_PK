@@ -502,3 +502,72 @@
 2023-07-26 14:35:30,791 [main] INFO PK_MavenProject - Sibling
 2023-07-26 14:35:30,850 [main] INFO PK_MavenProject - Next5
 2023-07-26 14:35:30,935 [main] INFO PK_MavenProject - Submit button
+2023-07-28 14:37:03,795 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:37:03,917 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:52:00,886 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:52:01,032 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:52:04,166 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:52:48,936 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:52:49,080 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:52:53,636 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:52:55,798 [main] INFO PK_MavenProject - Enter the Username
+2023-07-28 14:52:57,948 [main] INFO PK_MavenProject - Enter the Password
+2023-07-28 14:53:00,070 [main] INFO PK_MavenProject - Click on the Ward button
+2023-07-28 14:53:05,656 [main] INFO PK_MavenProject - Click the Login button
+2023-07-28 14:53:05,675 [main] INFO PK_MavenProject - Login test case pass
+2023-07-28 14:53:09,937 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:53:10,068 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:53:14,174 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:53:16,296 [main] INFO PK_MavenProject - Enter the Username
+2023-07-28 14:53:18,452 [main] INFO PK_MavenProject - Enter the Password
+2023-07-28 14:53:20,566 [main] INFO PK_MavenProject - Click on the Ward button
+2023-07-28 14:53:23,665 [main] INFO PK_MavenProject - Click the Login button
+2023-07-28 14:53:27,783 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:53:27,931 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:53:33,948 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:53:36,050 [main] INFO PK_MavenProject - Enter the Username
+2023-07-28 14:53:38,380 [main] INFO PK_MavenProject - Enter the Password
+2023-07-28 14:53:40,495 [main] INFO PK_MavenProject - Click on the Ward button
+2023-07-28 14:53:43,653 [main] INFO PK_MavenProject - Click the Login button
+2023-07-28 14:53:47,854 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:53:47,993 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:53:59,835 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:54:01,945 [main] INFO PK_MavenProject - Enter the Username
+2023-07-28 14:54:04,059 [main] INFO PK_MavenProject - Enter the Password
+2023-07-28 14:54:06,137 [main] INFO PK_MavenProject - Click on the Ward button
+2023-07-28 14:54:09,228 [main] INFO PK_MavenProject - Click the Login button
+2023-07-28 14:54:13,580 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:54:13,724 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:54:18,317 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:54:20,433 [main] INFO PK_MavenProject - Enter the Username
+2023-07-28 14:54:22,567 [main] INFO PK_MavenProject - Enter the Password
+2023-07-28 14:54:24,685 [main] INFO PK_MavenProject - Click on the Ward button
+2023-07-28 14:54:27,782 [main] INFO PK_MavenProject - Click the Login button
+2023-07-28 14:54:31,946 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:54:32,093 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:54:47,359 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:54:55,186 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:54:55,330 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:55:01,135 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:55:10,697 [main] INFO PK_MavenProject - Open the browser
+2023-07-28 14:55:10,831 [main] INFO PK_MavenProject - Max. the window
+2023-07-28 14:55:21,639 [main] INFO PK_MavenProject - Hit the URL
+2023-07-28 14:56:07,375 [main] INFO PK_MavenProject - Click on the Register
+2023-07-28 14:56:09,492 [main] INFO PK_MavenProject - Enter the 1st name
+2023-07-28 14:56:11,661 [main] INFO PK_MavenProject - Enter the middle name
+2023-07-28 14:56:13,839 [main] INFO PK_MavenProject - Enter the Lastname
+2023-07-28 14:56:15,952 [main] INFO PK_MavenProject - Next Button
+2023-07-28 14:56:16,237 [main] INFO PK_MavenProject - Select Button
+2023-07-28 14:56:16,315 [main] INFO PK_MavenProject - Next button 1
+2023-07-28 14:56:16,430 [main] INFO PK_MavenProject - Select the date
+2023-07-28 14:56:16,769 [main] INFO PK_MavenProject - Select the Month
+2023-07-28 14:56:16,950 [main] INFO PK_MavenProject - Select the Year
+2023-07-28 14:56:17,102 [main] INFO PK_MavenProject - Next button 2
+2023-07-28 14:56:17,257 [main] INFO PK_MavenProject - Address added
+2023-07-28 14:56:17,351 [main] INFO PK_MavenProject - Next button 3
+2023-07-28 14:56:17,521 [main] INFO PK_MavenProject - Enter the phone
+2023-07-28 14:56:17,618 [main] INFO PK_MavenProject - Next button 4
+2023-07-28 14:56:18,025 [main] INFO PK_MavenProject - Relation enter
+2023-07-28 14:56:18,316 [main] INFO PK_MavenProject - Sibling
+2023-07-28 14:56:18,423 [main] INFO PK_MavenProject - Next5
+2023-07-28 14:56:18,560 [main] INFO PK_MavenProject - Submit button

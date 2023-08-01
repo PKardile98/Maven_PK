@@ -13,7 +13,7 @@ public class Read_configuration_MRS {
 
 	public Read_configuration_MRS() {
 		
-		String Path="C:\\Users\\Prashant\\eclipse-workspace\\PK_MavenProject\\src\\test\\resources\\Configuration\\Config.properties";
+		String Path="C:\\Users\\Prashant\\git\\Maven_PK\\PK_MavenProject\\src\\test\\resources\\Configuration\\Config.properties";
 
 		File SRC = new File(Path);
 

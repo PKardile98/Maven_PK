@@ -57,14 +57,14 @@ public class LoginTest_Data_MRS extends BaseClass_OpenMRS {
 	@DataProvider(name = "Logindata")
 	public Object[][] Getdata() throws IOException {
 
-		String Path ="C:\\Users\\Prashant\\eclipse-workspace\\PK_MavenProject\\src\\main\\java\\Com\\healthcare\\Testdata\\DataPrivider.xlsx";
+		String Path ="C:\\Users\\Prashant\\git\\Maven_PK\\PK_MavenProject\\src\\main\\java\\Com\\healthcare\\Testdata\\DataPrivider.xlsx";
 
 		int R1 = ExcelUtils_MRS.GetRowcount(Path, "Sheet1");
 		int C1 = ExcelUtils_MRS.GetCellcount(Path, "Sheet1", 1);
 
 		Object logindata[][] = new Object[R1][C1];
 
-		for (int i=1; i<R1; i++) {
+		for (int i=1; i<=R1; i++) {
 
 			for (int j=0; j<C1; j++) {
 

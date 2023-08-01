@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.healthcare.TestCases.TestClass_MRS_Broken_links">
+      <class name="Com.healthcare.TestCases.LoginTest_Data_MRS">
         <methods>
-          <include name="TestMethod"/>
           <include name="TearDown"/>
           <include name="LaunchBrowser"/>
+          <include name="Login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Com.healthcare.TestCases.TestClass_MRS_Broken_links -->
+      </class> <!-- Com.healthcare.TestCases.LoginTest_Data_MRS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

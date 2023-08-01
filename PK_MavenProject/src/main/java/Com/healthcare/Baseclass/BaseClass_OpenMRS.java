@@ -28,11 +28,11 @@ public class BaseClass_OpenMRS {
 		
 		loggers = loggers.getLogger("PK_MavenProject");
 
-		PropertyConfigurator.configure("C:\\Users\\Prashant\\eclipse-workspace\\11_March_Maven\\Configuration\\Log4j.properties");
+		PropertyConfigurator.configure("C:\\Users\\Prashant\\git\\Maven_PK\\PK_MavenProject\\src\\test\\resources\\Configuration\\Log4j.properties");
 
 
 		System.setProperty("webdriver.Chrome.Driver",
-				"C:\\Users\\Prashant\\eclipse-workspace\\March11__Automation\\Resources\\chromedriver.exe");
+				RC.GetChormePath());
 
 		driver = new ChromeDriver();
 		loggers.info("Open the browser");

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Prashant\eclipse-workspace\PK_MavenProject\testngAllcases.xml</span>
+                    <span>C:\Users\Prashant\git\Maven_PK\PK_MavenProject\testngAllcases.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com.healthcare.TestCases.LoginTest_Data_MRS" class="method navigator-link" hash-for-method="Login(null, null, null)">Login(null, null, null)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,12 +108,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com.healthcare.TestCases.LoginTest_Data_MRS" class="method navigator-link" hash-for-method="Login(Admin, Admin12345, Invalid)">Login(Admin, Admin12345, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Com.healthcare.TestCases.LoginTest_Data_MRS" class="method navigator-link" hash-for-method="Login(Adminn, Admin123, Invalid)">Login(Adminn, Admin123, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com.healthcare.TestCases.LoginTest_Data_MRS" class="method navigator-link" hash-for-method="Login(Adminn, Admin123, Invalid)">Login(Adminn, Admin123, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Com.healthcare.TestCases.LoginTest_Data_MRS" class="method navigator-link" hash-for-method="Login(Admin, Admin12345, Invalid)">Login(Admin, Admin12345, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,6 +124,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Com.healthcare.TestCases.Login_TestClass" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Com.healthcare.TestCases.LoginTest_Data_MRS" class="method navigator-link" hash-for-method="Login(adminpk, Admin1234567, Invalid)">Login(adminpk, Admin1234567, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -162,31 +153,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Com.healthcare.TestCases.LoginTest_Data_MRS</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Login(null, null, null)">
-                  </a> <!-- Login(null, null, null) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(null,null,null)</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
-	at Com.healthcare.Pageclass.Login_MRS.Setusername(Login_MRS.java:32)
-	at Com.healthcare.TestCases.LoginTest_Data_MRS.Login(LoginTest_Data_MRS.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -210,14 +176,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login(Admin, Admin12345, Invalid)">
-                  </a> <!-- Login(Admin, Admin12345, Invalid) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(Admin,Admin12345,Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Login(Adminn, Admin123, Invalid)">
                   </a> <!-- Login(Adminn, Admin123, Invalid) -->
                   <span class="method-name">Login</span>
@@ -226,10 +184,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="Login(Admin, Admin12345, Invalid)">
+                  </a> <!-- Login(Admin, Admin12345, Invalid) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(Admin,Admin12345,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="Login(Admin, Admin123, Valid)">
                   </a> <!-- Login(Admin, Admin123, Valid) -->
                   <span class="method-name">Login</span>
                   <span class="parameters">(Admin,Admin123,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(adminpk, Admin1234567, Invalid)">
+                  </a> <!-- Login(adminpk, Admin1234567, Invalid) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(adminpk,Admin1234567,Invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -275,7 +249,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Prashant\eclipse-workspace\PK_MavenProject\testngAllcases.xml</span>
+            <span class="header-content">C:\Users\Prashant\git\Maven_PK\PK_MavenProject\testngAllcases.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -334,35 +308,35 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Enroll_Patient')
 data.setCell(0, 2, 'Com.healthcare.TestCases.Register_PatientTestclass')
-data.setCell(0, 3, 44330);
+data.setCell(0, 3, 54908);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Login')
 data.setCell(1, 2, 'Com.healthcare.TestCases.LoginTest_Data_MRS')
-data.setCell(1, 3, 8585);
+data.setCell(1, 3, 10035);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Login')
 data.setCell(2, 2, 'Com.healthcare.TestCases.LoginTest_Data_MRS')
-data.setCell(2, 3, 7735);
+data.setCell(2, 3, 7706);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Login')
 data.setCell(3, 2, 'Com.healthcare.TestCases.LoginTest_Data_MRS')
-data.setCell(3, 3, 7228);
+data.setCell(3, 3, 7500);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Login')
 data.setCell(4, 2, 'Com.healthcare.TestCases.LoginTest_Data_MRS')
-data.setCell(4, 3, 7217);
+data.setCell(4, 3, 7470);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Login')
-data.setCell(5, 2, 'Com.healthcare.TestCases.Login_TestClass')
-data.setCell(5, 3, 2768);
+data.setCell(5, 2, 'Com.healthcare.TestCases.LoginTest_Data_MRS')
+data.setCell(5, 3, 7403);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TestMethod')
-data.setCell(6, 2, 'Com.healthcare.TestCases.TestClass_MRS_Broken_links')
-data.setCell(6, 3, 1363);
+data.setCell(6, 1, 'Login')
+data.setCell(6, 2, 'Com.healthcare.TestCases.Login_TestClass')
+data.setCell(6, 3, 3245);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Login')
-data.setCell(7, 2, 'Com.healthcare.TestCases.LoginTest_Data_MRS')
-data.setCell(7, 3, 12);
+data.setCell(7, 1, 'TestMethod')
+data.setCell(7, 2, 'Com.healthcare.TestCases.TestClass_MRS_Broken_links')
+data.setCell(7, 3, 1640);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -400,106 +374,104 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login(Admin, Admin123, Valid)</span>
-                <span class="method-start">10045 ms</span>
+                <span class="method-start">9359 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">18648 ms</span>
+                <span class="method-start">19408 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">21745 ms</span>
+                <span class="method-start">22619 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login(Adminn, Admin123, Invalid)</span>
-                <span class="method-start">29387 ms</span>
+                <span class="method-start">29901 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">36619 ms</span>
+                <span class="method-start">37405 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">39734 ms</span>
+                <span class="method-start">40562 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login(Admin, Admin12345, Invalid)</span>
-                <span class="method-start">46334 ms</span>
+                <span class="method-start">49680 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">54069 ms</span>
+                <span class="method-start">57390 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">57148 ms</span>
+                <span class="method-start">60552 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login(Admin12, Admin12, Invalid)</span>
-                <span class="method-start">63842 ms</span>
+                <span class="method-start">75558 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">71061 ms</span>
+                <span class="method-start">82963 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">74164 ms</span>
+                <span class="method-start">86160 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Login(null, null, null)</span>
-                <span class="method-start">80778 ms</span>
+                <span class="method-name">Login(adminpk, Admin1234567, Invalid)</span>
+                <span class="method-start">94044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">80948 ms</span>
+                <span class="method-start">101516 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Com.healthcare.TestCases.TestClass_MRS_Broken_links</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">84048 ms</span>
+                <span class="method-start">104703 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TestMethod</span>
-                <span class="method-start">92157 ms</span>
+                <span class="method-start">123083 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">93521 ms</span>
+                <span class="method-start">124726 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Com.healthcare.TestCases.Login_TestClass</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">96615 ms</span>
+                <span class="method-start">127892 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login</span>
-                <span class="method-start">103516 ms</span>
+                <span class="method-start">136861 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">106286 ms</span>
+                <span class="method-start">140114 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Com.healthcare.TestCases.Register_PatientTestclass</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">109373 ms</span>
+                <span class="method-start">143326 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Enroll_Patient</span>
-                <span class="method-start">115765 ms</span>
+                <span class="method-start">157370 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">160097 ms</span>
+                <span class="method-start">212282 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
