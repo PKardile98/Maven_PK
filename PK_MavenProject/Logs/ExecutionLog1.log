@@ -571,3 +571,10 @@
 2023-07-28 14:56:18,316 [main] INFO PK_MavenProject - Sibling
 2023-07-28 14:56:18,423 [main] INFO PK_MavenProject - Next5
 2023-07-28 14:56:18,560 [main] INFO PK_MavenProject - Submit button
+2023-08-03 18:32:17,666 [main] INFO PK_MavenProject - Open the browser
+2023-08-03 18:32:17,839 [main] INFO PK_MavenProject - Max. the window
+2023-08-03 18:32:23,536 [main] INFO PK_MavenProject - Hit the URL
+2023-08-03 18:32:50,286 [main] INFO PK_MavenProject - Open the browser
+2023-08-03 18:32:50,427 [main] INFO PK_MavenProject - Max. the window
+2023-08-03 18:32:54,709 [main] INFO PK_MavenProject - Hit the URL
+2023-08-03 18:33:20,319 [main] INFO PK_MavenProject - Enter the Username
