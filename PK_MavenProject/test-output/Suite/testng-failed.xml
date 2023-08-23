@@ -6,13 +6,34 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Com.healthcare.TestCases.Login_TestClass">
+        <methods>
+          <include name="TearDown"/>
+          <include name="LaunchBrowser"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Com.healthcare.TestCases.Login_TestClass -->
       <class name="Com.healthcare.TestCases.LoginTest_Data_MRS">
         <methods>
           <include name="TearDown"/>
           <include name="LaunchBrowser"/>
-          <include name="Login" invocation-numbers="4"/>
+          <include name="Login"/>
         </methods>
       </class> <!-- Com.healthcare.TestCases.LoginTest_Data_MRS -->
+      <class name="Com.healthcare.TestCases.Register_PatientTestclass">
+        <methods>
+          <include name="Enroll_Patient"/>
+          <include name="TearDown"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- Com.healthcare.TestCases.Register_PatientTestclass -->
+      <class name="Com.healthcare.TestCases.TestClass_MRS_Broken_links">
+        <methods>
+          <include name="TestMethod"/>
+          <include name="LaunchBrowser"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Com.healthcare.TestCases.TestClass_MRS_Broken_links -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
